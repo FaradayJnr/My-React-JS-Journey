@@ -9,7 +9,13 @@ function App() {
     <div className="App">
      {/* <Greet />
      <Welcome /> */}
-     <Hello />
+     <Greet name="Danny">
+     <p>This is Danny</p>
+     </Greet>
+     <Greet name="Eben">
+      <button>Click here</button>
+      </Greet>
+     <Greet name="Emma" />
     </div>
   );
 }
