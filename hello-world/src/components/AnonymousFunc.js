@@ -8,9 +8,19 @@ let age = 10
 //     </div>
 //   )
 // }
-
+let names = ["Naa","Okine","Eno"]
 //conditional (if...else) --> Tenary operators
+
+
 const AnonymousFunc = () =>{
-    return age > 10 ? <div>Hello</div>: <div>Hi</div>
+    //.map()
+    // names.map((name)=>{
+    //     return <h1>{name}</h1>
+    // })
+    return (
+        age > 10 ? <div>Hello</div>: <div>Hi</div>
+
+    )
+
 } 
 export default AnonymousFunc
