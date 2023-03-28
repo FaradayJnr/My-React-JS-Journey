@@ -1,16 +1,16 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 
 class ClassClick extends Component {
-    clickHandler(){
-        console.log('You clicked me')
-    }
+  clickHandler() {
+    console.log("You clicked me");
+  }
   render() {
     return (
       <div>
-            <button onClick={this.clickHandler}>Click me</button>
+        <button onClick={this.clickHandler}>Click me</button>
       </div>
-    )
+    );
   }
 }
 
-export default ClassClick
+export default ClassClick;

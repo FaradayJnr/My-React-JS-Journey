@@ -1,5 +1,5 @@
-import React from 'react'
-let age = 10
+import React from "react";
+let age = 10;
 //anonymous function
 // function AnonymousFunc() {
 //   return (
@@ -8,19 +8,14 @@ let age = 10
 //     </div>
 //   )
 // }
-let names = ["Naa","Okine","Eno"]
+let names = ["Naa", "Okine", "Eno"];
 //conditional (if...else) --> Tenary operators
 
-
-const AnonymousFunc = () =>{
-    //.map()
-    // names.map((name)=>{
-    //     return <h1>{name}</h1>
-    // })
-    return (
-        age > 10 ? <div>Hello</div>: <div>Hi</div>
-
-    )
-
-} 
-export default AnonymousFunc
+const AnonymousFunc = () => {
+  //.map()
+  // names.map((name)=>{
+  //     return <h1>{name}</h1>
+  // })
+  return age > 10 ? <div>Hello</div> : <div>Hi</div>;
+};
+export default AnonymousFunc;
