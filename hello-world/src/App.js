@@ -9,7 +9,7 @@ import FuncClick from './components/FuncClick';
 import ClassClick from './components/ClassClick';
 import AnonymousFunc from './components/AnonymousFunc';
 import AddImage from './components/AddImage';
-
+import Conditional from './components/Conditional';
 //functional component
 function App() {
   return (
@@ -29,7 +29,7 @@ function App() {
      {/* <FuncClick />
      <ClassClick />
      <AnonymousFunc /> */}
-    <AddImage />
+    <Conditional />
     </div>
   );
 }
