@@ -8,6 +8,7 @@ import Counter1 from './components/counter1';
 import FuncClick from './components/FuncClick';
 import ClassClick from './components/ClassClick';
 import AnonymousFunc from './components/AnonymousFunc';
+import AddImage from './components/AddImage';
 
 //functional component
 function App() {
@@ -25,10 +26,10 @@ function App() {
     //  <Greet name="Emma" />
     //  <Counter /> 
     //  <Counter1 /> */}
-     <FuncClick />
+     {/* <FuncClick />
      <ClassClick />
-     <AnonymousFunc />
-
+     <AnonymousFunc /> */}
+    <AddImage />
     </div>
   );
 }
