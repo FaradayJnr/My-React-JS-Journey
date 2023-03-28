@@ -28,7 +28,7 @@ function App() {
       {/* <FuncClick />
      <ClassClick />
      <AnonymousFunc /> */}
-      <Conditional />
+     <AddImage />
     </div>
   );
 }
