@@ -9,6 +9,12 @@ import ClassClick from "./components/ClassClick";
 import AnonymousFunc from "./components/AnonymousFunc";
 import AddImage from "./components/AddImage";
 import Conditional from "./components/Conditional";
+import ProductCategoryRow from "./component/ThinkingInReact/ProductCategoryRow";
+import ProductRow from "./component/ThinkingInReact/ProductRow";
+import ProductTable from "./component/ThinkingInReact/ProductTable";
+import SearchBar from "./component/ThinkingInReact/SearchBar";
+import FilterableProductTable from "./component/ThinkingInReact/FilterableProductTable";
+
 //functional component
 function App() {
   return (
@@ -28,7 +34,10 @@ function App() {
       {/* <FuncClick />
      <ClassClick />
      <AnonymousFunc /> */}
-     <AddImage />
+      {/* <AddImage /> */}
+      <FilterableProductTable />
+      <ProductCategoryRow />
+      <ProductRow />
     </div>
   );
 }
