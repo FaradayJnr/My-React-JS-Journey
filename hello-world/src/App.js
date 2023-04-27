@@ -1,20 +1,20 @@
 import "./App.css";
-import Greet from "./components/Greet";
-import Welcome from "./components/Welcome";
-import Hello from "./components/Hello";
-import Counter from "./components/counter";
-import Counter1 from "./components/counter1";
-import FuncClick from "./components/FuncClick";
-import ClassClick from "./components/ClassClick";
-import AnonymousFunc from "./components/AnonymousFunc";
-import AddImage from "./components/AddImage";
-import Conditional from "./components/Conditional";
-import ProductCategoryRow from "./component/ThinkingInReact/ProductCategoryRow";
-import ProductRow from "./component/ThinkingInReact/ProductRow";
-import ProductTable from "./component/ThinkingInReact/ProductTable";
-import SearchBar from "./component/ThinkingInReact/SearchBar";
-import FilterableProductTable from "./component/ThinkingInReact/FilterableProductTable";
-
+// import Greet from "./components/Greet";
+// import Welcome from "./components/Welcome";
+// import Hello from "./components/Hello";
+// import Counter from "./components/counter";
+// import Counter1 from "./components/counter1";
+// import FuncClick from "./components/FuncClick";
+// import ClassClick from "./components/ClassClick";
+// import AnonymousFunc from "./components/AnonymousFunc";
+// import AddImage from "./components/AddImage";
+// import Conditional from "./components/Conditional";
+// import ProductCategoryRow from "./component/ThinkingInReact/ProductCategoryRow";
+// import ProductRow from "./component/ThinkingInReact/ProductRow";
+// import ProductTable from "./component/ThinkingInReact/ProductTable";
+// import SearchBar from "./component/ThinkingInReact/SearchBar";
+// import FilterableProductTable from "./component/ThinkingInReact/FilterableProductTable
+import Search from "./form/SignUp";
 //functional component
 function App() {
   return (
@@ -35,9 +35,10 @@ function App() {
      <ClassClick />
      <AnonymousFunc /> */}
       {/* <AddImage /> */}
-      <FilterableProductTable />
+      {/* <FilterableProductTable />
       <ProductCategoryRow />
-      <ProductRow />
+      <ProductRow /> */}
+      <Search />
     </div>
   );
 }

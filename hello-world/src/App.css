@@ -27,7 +27,18 @@
 .App-link {
   color: #61dafb;
 }
-
+.SignUp{
+  margin-top: 40%;
+}
+form{
+  background-color: aqua;
+  align-items: center;
+  padding: 20px;
+  font-weight: 500;
+}
+h1{
+  color: rgb(171, 27, 27);
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
